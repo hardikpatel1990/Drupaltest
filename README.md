@@ -5,7 +5,7 @@ These exercises are designed to assess your Drupal knowledge and see how you sol
 * Read the exercises below.
 * Push your work up in a new private repository in your own GitHub account.
 * Export your local databses and push in project's root folder.
-* Give the user hardikpatel1990 read access to your repository.
+* Give the user [hardikpatel1990](https://github.com/hardikpatel1990) read access to your repository.
 
 # Exercises
 
