@@ -3,7 +3,7 @@ These exercises are designed to assess your Drupal knowledge and see how you sol
 
 # Instructions
 * Read the exercises below.
-* Push your work up in a new, private repository in your own GitHub account.
+* Push your work up in a new private repository in your own GitHub account.
 * Export your local databses and push in project's root folder.
 * Give the user hardikpatel1990 read access to your repository.
 
@@ -11,7 +11,6 @@ These exercises are designed to assess your Drupal knowledge and see how you sol
 
 Note: All below 3 exercises should be implement in Drupal 7 latest stable version.
 
-This project contains two custom modules.
 * Exercise 1: Multisite setup
 * Exercise 2:  Display a list of users using custom form on the homepage
 * Exercise 3: Create a paywall effect for the article content type
@@ -35,7 +34,7 @@ We want to institute a paywall for some article nodes that we are publishing.
 1. Create exercise3 custom module.
 2. Our requirements are:
 
-* Users already log in to our site. Currently, they only have the authenticated user role. We have gone ahead and created a new role: premium. This new premium role will need a new permission: view full premium content.
+* Creat a new role: premium. This new premium role will need a new permission: view full premium content.
 * We do not want to paywall all of the article content on our site. We have added a new field to the article content type (field_is_premium). Only articles that have field checked should have the paywall active.
 * If a node has field_is_premium checked, then users without this new permission should see the summary even when they are viewing a full node display. If they do have this new permission, then they should not see the summary, they should see the full body content.
 * Users who do not get to see the full premium content should get notice on the page that says that the full content is only available with a premium account.
